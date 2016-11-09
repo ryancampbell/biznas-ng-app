@@ -1,4 +1,4 @@
-import { biz } from '@biznas/ng-core';
+import { server } from '@biznas/ng-core/server';
 import { config } from './biz.config';
 
-biz.server(config).start();
+server(config).start();
