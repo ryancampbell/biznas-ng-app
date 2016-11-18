@@ -8,25 +8,16 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": false,
-    "baseUrl": "./src",
     "lib": [
       "dom",
       "es6"
-    ],
-    "types": [
-      "core-js",
-      "hammerjs",
-      "jasmine",
-      "node",
-      "selenium-webdriver",
-      "source-map",
-      "uglify-js",
-      "webpack"
     ]
   },
-  "exclude": [
-    "node_modules",
-    "dist"
+  "files": [
+    "biz.client.ts",
+    "biz.config.ts",
+    "biz.server.ts",
+    "src/**/*"
   ],
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true,
