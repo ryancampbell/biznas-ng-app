@@ -8,6 +8,7 @@ Angular 2, Angular Router, Material 2 and Angular Universal
 git clone https://github.com/biznas/ng-core-starter.git my-app
 cd my-app
 npm i
-npm build
+npm run build
 npm start
+
 ```
