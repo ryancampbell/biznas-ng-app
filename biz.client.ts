@@ -1,6 +1,6 @@
-import { biz } from '@biznas/ng-core';
+import { client } from '@biznas/ng-core/client';
 import { config } from './biz.config';
 
 import { RootModule } from './src';
 
-biz.client(config).bootstrap(RootModule);
+client(config).bootstrap(RootModule);
