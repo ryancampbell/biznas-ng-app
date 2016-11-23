@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { biz } from '@biznas/ng-core';
 import { config } from '../biz.config';
 
-import { RootComponent } from './root.component';
+import { AppComponent } from './app.component';
 
 @NgModule(biz
   .ngModule()
   .root()
-  .component(RootComponent)
+  .component(AppComponent)
   .build())
-export class RootModule {}
+export class AppModule {}
